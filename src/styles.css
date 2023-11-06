@@ -1,0 +1,46 @@
+body {
+  margin: 0px;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.user {
+  width: 50%;
+  margin: auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-detail > div {
+  margin: 5px;
+}
+
+i {
+  margin: 10px;
+}
+.newUser {
+  background-color: grey;
+}
+input {
+  width: 50%;
+  height: 2rem;
+  margin: 10px;
+}
+.oldUsers {
+  border: 2px black solid;
+  width: 50%;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 10px;
+}
+.oldUsers input {
+  width: 80%;
+}
+button {
+  margin: 10px;
+}
